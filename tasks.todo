@@ -1,0 +1,2 @@
+☐ add some sort of garbage collection (e.g. delete all blocks of segment after segment is complete (all pos.x < 0))
+make fragile blocks only destructable from below
