@@ -8,7 +8,7 @@ const MAPTILE = {
   width: 30 * SQ
 }
 
-canvas.width = 1024;
+canvas.width = innerWidth;
 canvas.height = SQ * 20;
 
 // let blockImage = createImage("./img/block.png");
