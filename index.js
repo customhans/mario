@@ -75,7 +75,7 @@ function animate() {
         let calcTileId = i * MAPTILE.width + (j * MAPTILE.cols + k)
 
         switch (true) {
-          case block.trim() === "■": // Hard Block
+          case block.trim() === "x": // Hard Block
             hardBlocks.push(
               new HardBlock({
                 pos: calcPos,
@@ -85,7 +85,7 @@ function animate() {
             )
             break;
 
-          case block.trim() === "⧅": // Soft Block
+          case block.trim() === "@": // Soft Block
             softBlocks.push(
               new SoftBlock({
                 pos: calcPos,
