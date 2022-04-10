@@ -30,6 +30,7 @@ class Character {
 
   update() {
     this.pos.y += this.vel.y;
+    if (this.pos.y + this.vel.y < 0) this.pos.y = 0;
 
     this.updateX();
     this.updateY();
