@@ -1,7 +1,7 @@
 class Character {
   constructor({ pos }) {
     this.pos = pos;
-    this.vel = { y: 0, x: 0 };
+    this.vel = { y: 0, x: 310 };
     this.gravity = 0.75;
     this.skills = {
       run: {
